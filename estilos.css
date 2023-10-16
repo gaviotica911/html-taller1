@@ -1,0 +1,87 @@
+body {
+  background-image: url(img/fondo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Estilos para la barra de navegación */
+        nav {
+            background-color: #E8C39E; /* Color de fondo */
+            color: black; /* Color del texto */
+            padding: 10px 20px; /* Espaciado interno */
+        }
+
+        /* Estilos para los enlaces del menú */
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 24px; /* Tamaño de fuente más grande */
+            margin: 0 10px; /* Espaciado entre elementos del menú */
+        }
+
+       
+.container {
+  display: flex;
+  align-items: stretch; /* Alinea los contenedores verticalmente */
+}
+
+
+.card {
+  background-color: #E8C39E;
+  margin: 40px;
+  padding: 20px;
+  height: 700px;
+  width: 600px;
+  
+}
+
+
+.accordion {
+  border: #E8C39E;
+  border-radius: 6px;
+  background-color: #E8C39E;
+  margin: 40px;
+  padding: 20px;
+  height: 700px;
+  width: 600px;
+ 
+}
+
+.imgg {
+  margin: 40px;
+  padding: 20px;
+  height: 100;
+  width: 100;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.instagram {
+  background-color: pink;
+}
+
+.github {
+  background-color: #333;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
